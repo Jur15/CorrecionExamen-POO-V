@@ -1,5 +1,4 @@
-package CorrecionExamen.src.main.java.poo.correcionexamen;
-
+package poo.correcionexamen;
 
 /**
  *
@@ -7,9 +6,9 @@ package CorrecionExamen.src.main.java.poo.correcionexamen;
  */
 public class Direccion {
 
-    private String provincia,canton,distrito,sennas;
+    private String provincia, canton, distrito, sennas;
 
-    public Empleado(String pProvincia, String pCanton, String pDistrito, String pSennas) {
+    public Direccion(String pProvincia, String pCanton, String pDistrito, String pSennas) {
         this.provincia = pProvincia;
         this.canton = pCanton;
         this.distrito = pDistrito;

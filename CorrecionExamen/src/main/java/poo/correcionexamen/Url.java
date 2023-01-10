@@ -1,6 +1,7 @@
-package CorrecionExamen.src.main.java.poo.correcionexamen;
+package poo.correcionexamen;
 
 public class Url {
+
     private String enlace;
     private String tipo;
 
@@ -30,8 +31,8 @@ public class Url {
 
     @Override
     public String toString() {
-        return "Url" +
-                "enlace: " + enlace + '\n' +
-                ", tipo: " + tipo + '\n';
+        return "Url"
+                + "enlace: " + enlace + '\n'
+                + ", tipo: " + tipo + '\n';
     }
 }
