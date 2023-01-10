@@ -1,4 +1,4 @@
-package CorrecionExamen.src.main.java.poo.correcionexamen;
+package poo.correcionexamen;
 
 import java.util.Date;
 
@@ -19,5 +19,61 @@ public class Transportista {
         this.apellido2 = pApellido2;
         this.telefono = pTelefono;
         this.fechaNac = pFechaNac;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido1() {
+        return apellido1;
+    }
+
+    public void setApellido1(String apellido1) {
+        this.apellido1 = apellido1;
+    }
+
+    public String getApellido2() {
+        return apellido2;
+    }
+
+    public void setApellido2(String apellido2) {
+        this.apellido2 = apellido2;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+    public Date getFechaNac() {
+        return fechaNac;
+    }
+
+    public void setFechaNac(Date fechaNac) {
+        this.fechaNac = fechaNac;
+    }
+
+    public TipoTransporte getTransporte() {
+        return transporte;
+    }
+
+    public void setTransporte(TipoTransporte transporte) {
+        this.transporte = transporte;
+    }
+
+    public TipoHorario getHorario() {
+        return horario;
+    }
+
+    public void setHorario(TipoHorario horario) {
+        this.horario = horario;
     }
 }
