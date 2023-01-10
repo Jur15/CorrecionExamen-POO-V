@@ -1,4 +1,4 @@
-package poo.correcionexamen;
+package CorrecionExamen.src.main.java.poo.correcionexamen;
 
 /**
  *

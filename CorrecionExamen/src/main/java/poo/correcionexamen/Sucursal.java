@@ -16,7 +16,7 @@ public class Sucursal {
 
     }
 
-    public void mostrarTransportistas(Transportista pTransportista){
+    public void mostrarTransportistas(){
 
     }
 
